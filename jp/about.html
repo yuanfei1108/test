@@ -65,11 +65,11 @@
 			<div class="about">
 				<div>
 					<div class="col-md-2 col-sm-3">
-                    <ul  class="nav navbar-nav about-categ">
-                        <li id="company_profile" class="active"><a href="company_profile" class="company_sub_link">会社概要</a></li>
-						<li id="company_principle"><a href="company_principle" class="company_sub_link">経営理念</a></li>
-						<li id="company_greeting"><a href="company_greeting" class="company_sub_link">社長挨拶</a></li>
-                        <li id="company_history"><a href="company_history" class="company_sub_link">会社沿革</a></li>
+                    <ul  class="about-categ">
+                        <li class="active"><a href="company.html">会社概要</a></li>
+						<li><a href="company.html">経営理念</a></li>
+						<li><a href="company.html">社長挨拶</a></li>
+                        <li><a href="company.html">会社沿革</a></li>
                     </ul>
 					</div>
 					
@@ -178,28 +178,5 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script>
-$(function()
-{
-    $('#comp_sub_title').load("company.html #" + "company_profile");
-    $('#comp_sub_content').load("company.html #" + "company_profile" + "_content");
-
-    $(".company_sub_link").click(function()
-    {
-        var url = $(this).attr('href');
-		$('#company_profile').removeClass('active');
-		$('#company_principle').removeClass('active');
-		$('#company_greeting').removeClass('active');
-		$('#company_history').removeClass('active');
-		
-		$('#' + url).addClass('active');
-        $('#comp_sub_title').load("company.html #" + url);
-        $('#comp_sub_content').load("company.html #" + url + "_content");
- 		return false;
-    });
-});
-</script>
-
 </body>
 </html>
