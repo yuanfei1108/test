@@ -1837,11 +1837,11 @@ li.active {
 		float:left;
 	}
 	ul.about-categ li{
-	list-style: none;
-	font-size: 13px;
-	font-weight: 600;
-	border: 1px solid #F58A2E;
-	float:left;
+		list-style: none;
+		font-size: 13px;
+		font-weight: 600;
+		border: 1px solid #F58A2E;
+		float:left;
 	}
 
 
