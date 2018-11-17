@@ -1666,6 +1666,32 @@ article img.pull-right, article .align-right{
 }
 
 @media (max-width: 767px) {
+	ul.about-categ{
+		margin:10px 0 30px 0;
+		padding:0;
+		float:left;
+		list-style:none;
+	}
+
+	ul.about-categ li{
+	margin: 0; 
+	float: left;
+	list-style: none;
+	font-size: 13px;
+	font-weight: 600;
+	border: 1px solid #F58A2E;
+	margin-right: 15px;
+	margin: 15px;
+	}
+
+	ul.about-categ li a{
+		display:block;
+		padding: 8px 20px;
+		color: #F58A2E;
+	}
+
+
+
 .navbar-default .navbar-collapse {
   border-color: none;
   background: #F58A2E;
@@ -1841,30 +1867,6 @@ li.active {
 		height:20px;
 		font-size:14px;
 	}
-	ul.about-categ{
-		margin:10px 0 30px 0;
-		padding:0;
-		float:left;
-		list-style:none;
-	}
-
-	ul.about-categ li{
-	margin: 0; 
-	float: left;
-	list-style: none;
-	font-size: 13px;
-	font-weight: 600;
-	border: 1px solid #F58A2E;
-	margin-right: 15px;
-	margin: 15px;
-	}
-
-	ul.about-categ li a{
-		display:block;
-		padding: 8px 20px;
-		color: #F58A2E;
-	}
-
 
 }
 
