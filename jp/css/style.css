@@ -1842,17 +1842,23 @@ li.active {
 		font-size:14px;
 	}
 	ul.about-categ{
+		margin:10px 0 30px 0;
 		padding:0;
+		float:left;
 		list-style:none;
-		float:left;
 	}
+
 	ul.about-categ li{
-		list-style: none;
-		font-size: 13px;
-		font-weight: 600;
-		border: 1px solid #F58A2E;
-		float:left;
+	margin: 0; 
+	float: left;
+	list-style: none;
+	font-size: 13px;
+	font-weight: 600;
+	border: 1px solid #F58A2E;
+	margin-right: 15px;
+	margin: 15px;
 	}
+
 	ul.about-categ li a{
 		display:block;
 		padding: 8px 20px;
