@@ -1832,7 +1832,7 @@ li.active {
 		font-size:14px;
 	}
 	ul.about-categ{
-		padding:0;
+		padding:8px 20px;
 		list-style:none;
 		float:left;
 	}
