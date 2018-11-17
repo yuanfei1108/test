@@ -654,17 +654,24 @@ padding: 40px 0 0;
 
 /*  aboutus
 ================================ */
+
+hr.aboutus{
+  border-top: 3px double #F58A2E;
+}
+
 ul.about-categ{
+	margin:10px 0 30px 0;
 	padding:0;
 	list-style:none;
 }
 
 ul.about-categ li{
-list-style: none;
-font-size: 13px;
-font-weight: 600;
-border: 1px solid #F58A2E;
-display: inline-block;
+	margin: 0; 
+	list-style: none;
+	font-size: 13px;
+	font-weight: 600;
+	border: 1px solid #F58A2E;
+	margin-right: 15px;
 }
 
 ul.about-categ li a{
@@ -683,6 +690,9 @@ ul.about-categ li.active a:hover, ul.about-categ li a:hover,ul.about-categ li a:
 	text-decoration:none;
 	outline:0; 
 }
+
+/*  aboutus
+================================ */
 
 
 /*  Portfolio
@@ -1832,7 +1842,7 @@ li.active {
 		font-size:14px;
 	}
 	ul.about-categ{
-		padding:8px 20px;
+		padding:0;
 		list-style:none;
 		float:left;
 	}
